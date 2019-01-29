@@ -1,2 +1,2 @@
 client_secret.json
-db/migrate/*
+db/migrate/*.rb
