@@ -1,12 +1,23 @@
 ## SheetsDB: Google Sheets as a DB
 
-My pet project just for fun. 
+It is like Active Record, but with Google Sheet backend in mind :wink:
 
-This project uses [google_drive](https://github.com/gimite/google-drive-ruby) for accessing Google Drive and Sheets.
+This project uses [google_drive](https://github.com/gimite/google-drive-ruby) for accessing Google Drive and Sheets. 
+
+### Installation
+
+Currently installation is available as a standalone project only:
+
+```bash
+git clone https://github.com/vladyio/sheetsdb
+bundle install
+```
 
 ### Configuration
 
-to be done
+go to Google API console, do some things there...  (to be done)
+
+### Usage
 
 ### TODO:
 
@@ -15,3 +26,4 @@ to be done
   - [ ] Add support for foreign keys
 - [x] Drop tables (with `drop_table`)
 - [x] Drop database (with `drop_tabase!`)
+- [ ] Support for models (ORM, kind of?)
