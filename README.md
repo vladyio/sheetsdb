@@ -1,6 +1,6 @@
 ## SheetsDB: Google Sheets as a DB
 
-It is like Active Record, but with Google Sheet backend in mind :wink:
+It is like Active Record, but with Google Sheets backend in mind :wink:
 
 This project uses [google_drive](https://github.com/gimite/google-drive-ruby) for accessing Google Drive and Sheets. 
 
