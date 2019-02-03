@@ -6,6 +6,8 @@ This project uses [google_drive](https://github.com/gimite/google-drive-ruby) fo
 
 ### Installation
 
+SheetsDB should work with Ruby 2.4+
+
 Currently installation is available as a standalone project only:
 
 ```bash
