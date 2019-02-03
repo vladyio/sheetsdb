@@ -51,8 +51,9 @@ That's it!
 
 ### TODO:
 
+- [ ] Implement `alter_table`
 - [x] Create tables with fields (with `create_table`)
-- [x] Keep track of migrations in `db/schema.rb`
+- [ ] Keep track of migrations in `db/schema.rb`
   - [ ] Add types for fields
   - [ ] Add support for foreign keys
 - [x] Drop tables (with `drop_table`)

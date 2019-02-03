@@ -25,6 +25,10 @@ module SheetsDB
       worksheet(table_name).delete
     end
 
+    def alter_table(table_name)
+      raise StandardError, "#{__method__} is not implemented yet."
+    end
+
     def drop_database!
       puts '=> DROP DATABASE!'
       @spreadsheet.delete
