@@ -25,8 +25,13 @@ module SheetsDB
       worksheet(table_name).delete
     end
 
-    def alter_table(table_name)
-      raise StandardError, "#{__method__} is not implemented yet."
+    def add_column(table_name, column)
+      puts "=> add column #{column} to table #{table_name}"
+      table = worksheet(table_name)
+      num_cols = table.num_cols
+
+      table[1, num_cols + 1] = column.to_s
+      table.save
     end
 
     def drop_database!
@@ -38,6 +43,10 @@ module SheetsDB
 
     def worksheet(table_name)
       @spreadsheet.worksheet_by_title(table_name.to_s)
+    end
+
+    def columns(table_name)
+      worksheet(table_name).rows[0]
     end
   end
 end
